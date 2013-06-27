@@ -47,3 +47,5 @@ gem 'capistrano', group: :development
 gem 'rspec-rails', group: [:development, :test]
 
 gem 'pry-rails', :group => :development
+
+gem 'devise'
