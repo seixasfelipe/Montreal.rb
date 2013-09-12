@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title Montreal.rb
+    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+  
+  body
+    header
+      h1 
+        a href=root_path Montreal.rb
+      h3 Montreal's Ruby Community
+
+    == yield
